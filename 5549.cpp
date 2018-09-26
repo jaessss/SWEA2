@@ -1,3 +1,5 @@
+//9.26
+//숫자로 받아서 %연산 진행하는 것보다 string으로 받아서 1의 자리수만 가지고 
 #include <stdio.h>
 #include <iostream>
 #include <vector>
