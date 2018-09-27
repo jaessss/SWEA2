@@ -1,15 +1,17 @@
 //18.##.## #No. Title
 //Coments
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <functional>
 #include <string>
 using namespace std;
 
 int main(void)
 {
+	//ios::sync_with_stdio(false);
+	//cin.tie(NULL);
 	int T;
   //file inout
 	freopen("sample_input.txt", "r", stdin);
