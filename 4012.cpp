@@ -1,12 +1,11 @@
 //18.9.27 #No.4012 요리사
 //Coments : MAX 범위 확실히!!, DFS시 뛰는 조건 걸어서 오류처리 및 가지치기
 // DFS 복귀시 원상복구!!
-// #define 함수에는 지정된 형식만, 연산식 반영 x  --> stl에 abs, min, MAX, 포함되어있음
+// #define 함수에는 지정된 형식만, 연산식 반영 x  --> <algorithm>에 abs, min, MAX, 포함돼있음
 #include <stdio.h>
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <functional>
 #include <string>
 using namespace std;
 #define MAXN 16+1
