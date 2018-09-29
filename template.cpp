@@ -7,23 +7,24 @@
 #include <algorithm>
 #include <string>
 using namespace std;
+int ans;
 
 int main(void)
 {
-	//ios::sync_with_stdio(false);
-	//cin.tie(NULL);
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
 	int T;
   //file inout
 	freopen("sample_input.txt", "r", stdin);
 	setbuf(stdout, NULL);
-	scanf("%d", &T);
+	cin >> T;
 
 	for (int testcase = 1; testcase <= T; ++testcase)
 	{
 
 
-		printf("#%d \n", testcase);
-
+		
+		cout << "#" << testcase << " " << ans << endl;
 	}
 
 
