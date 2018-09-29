@@ -2,7 +2,7 @@
 //출발지점 선정에 있어 조건 해석 논란의 여지.. 
 //Coments 최대공사가능!K값만큼 무조건 깍는거x
 //2차원 배열 함수 파라미터로 넘기는 방법, call by reference로 전달됨
-//실행시간 줄일 수 있는 방법 생각해보기
+//실행시간 줄일 수 있는 방법 생각해보기 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <iostream>
