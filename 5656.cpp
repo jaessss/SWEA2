@@ -82,7 +82,7 @@ void DFS(int sel, int try_cnt, int saved_map[][MAXW]){
 }
 
 int main(void)
-{
+{ 
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	int T;
