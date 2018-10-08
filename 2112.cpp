@@ -37,13 +37,13 @@ void DFS(int cnt, int map[][MAXW], int search){
 	if (isPass(map)){ ans = min(cnt, ans); return; }
 
 	int save[MAXW] = { -1 };
-    DFS(cnt, map, search + 1);
-    for (int j = 0; j < W; j++)	save[j] = map[search][j];
-    for (int j = 0; j < W; j++) map[search][j] = 0;
-    DFS(cnt + 1, map, search+1);
-    for (int j = 0; j < W; j++) map[search][j] = 1;
-    DFS(cnt + 1, map, search+1);
-    for (int j = 0; j < W; j++) map[search][j] = save[j];
+	DFS(cnt, map, search + 1);
+	for (int j = 0; j < W; j++) save[j] = map[search][j];
+	for (int j = 0; j < W; j++) map[search][j] = 0;
+	DFS(cnt + 1, map, search+1);
+	for (int j = 0; j < W; j++) map[search][j] = 1;
+	DFS(cnt + 1, map, search+1);
+	for (int j = 0; j < W; j++) map[search][j] = save[j];
 }
 
 int main(void)
