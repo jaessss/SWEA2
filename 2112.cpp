@@ -1,5 +1,5 @@
-//18.10.08 #No.2112 보호필름
-//Coments : 다중재귀 뛰는 방향 고민 
+//18.10.08 #No.2112 보호필름 1721-1857
+//Coments : 다중재귀 뛰는 방향, 가능한 가지치기 고민 ~ 빠짐없이 최소한으로 탐색하게 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <iostream>
