@@ -1,5 +1,6 @@
 //18.10.15 #No.5653 <줄기세포배양> 2053-2310
 //Coments : 최대 범위 갱신 주의, if문 안에 여러 조건을 때려넣을때 가능한지 확실히 판단, 초기화주의
+//단순히 사이즈 제한 없다고 생각하지말고 최대치를 고려해서 배열로 진행할 생각하도록
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <iostream>
