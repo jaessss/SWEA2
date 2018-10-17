@@ -1,4 +1,4 @@
-//18.10.16 #No.5650 <핀볼게임>
+//18.10.16 #No.5650 <핀볼게임> 1100-1225
 //Coments : 문제에 주어진 특성에 따라 적절하게 자료구조 선정해서 입력처리
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
