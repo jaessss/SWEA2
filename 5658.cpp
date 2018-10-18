@@ -1,6 +1,7 @@
 //18.10.03 #No.5658 보물상자 비밀번호  1130-1232
 //Coments : vector, iterator, sort 내림차순 쓰는 법 연습
 //모듈로 연산으로 인덱스 회전 접근하는 것 혹은 필요한 부분만 복사해서 배열자체를 키운채로 접근
+//vector내 중복 원소 제거 vec.erase(unique(vec.begin(),vec.end()),vec.end())
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <iostream>
